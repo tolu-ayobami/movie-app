@@ -1,0 +1,660 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+
+:root{
+    --ff-primary: "Nunito", sans-serif;
+    
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: hsl(225, 26%, 14%);
+    font-family: var(--ff-primary);
+    font-weight: 100;
+    overflow-x: hidden;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: hsl(223, 25%, 17%); 
+    width: 90px;
+    height: 550px;
+    border-radius: 15px;
+  
+}
+.ico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#board{
+    color: red;
+    font-size:40px;
+
+}
+
+.ico i{
+    color: hsl(224, 11%, 59%); 
+    font-size: 22px;
+}
+
+.ico i:hover{
+    color: red;
+}
+
+#large{
+    color: white;
+}
+#large:hover{
+    color: red;
+}
+
+.img1{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
+
+.sear{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   cursor: pointer;
+}
+
+
+.inp{
+   width: 100%;
+   background-color: hsl(225, 26%, 14%);
+   color: white;
+   border: none;
+   outline: none;
+   font-size: 20px;
+   padding: 20px;
+
+}
+
+#sea{
+    font-size: 28px;
+    color: white;
+}
+
+.sectionall{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;   
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    max-width: 100%;
+    margin-top: 20px;
+
+}
+
+/* trending section*/
+
+.tren, .rec, .lai{
+    font-size: 35px;
+    color: white;
+   
+}
+
+.trend{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+
+
+.moon{
+    position: relative;
+    cursor: pointer;
+    width: 450px;
+
+   
+}
+
+ .moon img{
+    width: 450px;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    
+   
+}
+
+
+
+.yu:hover{
+    opacity: 1;
+    transition: 0.5s;
+    
+   
+}
+
+
+.trenimg{
+    display: flex;
+    width: 90%;
+    gap: 30px;
+    overflow-x: scroll;
+}
+
+.overlay{
+    position: absolute;
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.des{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.des span{
+    width: 3px;
+    height: 3px;
+    background-color: white; 
+}
+
+.des{
+    color: white;
+}
+
+.boo{
+    padding: 8px;
+    font-size: 22px;
+    color: white;
+  
+}
+
+
+.bo:hover{
+    background-color: red;
+    border-radius: 40%;
+   
+   
+}
+
+.bo{
+    position: absolute;
+    left: 380px;
+    top: 35px;
+    background-color: hsl(0, 0%, 33%);
+    border-radius: 40%;
+    z-index: 1;
+}
+
+
+.pg{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+
+.ty i {
+    color: white;
+    font-size: 30px;
+   
+}
+
+.yu h3{
+    color: white;
+    font-size: 15px;
+   
+}
+
+
+.yu{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-image:linear-gradient(rgba(66, 66, 66, 0.527), rgba(54, 54, 54, 0.527));
+    opacity: 0;
+   
+}
+
+.ty{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(214, 214, 214, 0.527);
+    padding: 5px;
+    width: 100px;
+    border-radius: 50px;
+    
+   
+}
+
+/*recommended secion*/
+
+.reco, .mova{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+
+
+.recoimg, .movieimg, .tvimg{
+    display: flex;
+    width: 90%;
+    gap: 30px;
+   
+}
+
+.beyond{
+    position: relative;
+    cursor: pointer;
+  
+}
+
+ .beyondo{
+    max-width: 50%; 
+    position: relative;
+}
+
+ .beyond img{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+
+.mar{
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+  
+}
+
+
+.mark:hover{
+    background-color: red;
+    border-radius: 40%;
+}
+
+.mark{
+    position: absolute;
+    right:0;
+    top: 20px;
+    background-color: hsl(0, 0%, 33%);
+    border-radius: 40%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+   
+}
+
+.ya{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+}
+
+
+.de{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.de span{
+    width: 3px;
+    height: 3px;
+    background-color: white; 
+}
+
+.de{
+    color: white;
+}
+
+.ya h3{
+    color: white;
+    font-size: 15px;
+   
+}
+
+.ou{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 90%;
+    gap: 30px;
+}
+
+
+.untouch .beyondo{
+    max-width: 100%;
+    
+}
+
+.untouch .beyond img{
+    width: 100%;
+}
+
+
+
+
+.ato{
+  display: grid;
+  grid-template-columns: auto auto;
+    width: 100%;
+    gap: 30px;
+}
+
+
+.unto .moon{
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.mova, .tva{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+
+}
+
+.lol, .lola{
+    display: none;
+}
+
+
+.bota {
+    background-color: red;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 8px;
+    gap: 5px;
+    position: absolute;
+    right: -100px;
+    top: 70px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+
+.nog{
+    right: 10px;
+
+}
+
+
+
+
+@media screen and (max-width:1080px) {
+
+    .recoimg, .movieimg, .tvimg{
+        display: grid;
+        grid-template-columns: auto auto;  
+        width: 80%;
+        gap: 30px;
+    }    
+
+.beyondo{
+    max-width: 100%; 
+    position: relative;
+}
+
+ .beyond img{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+}
+    
+}
+
+@media screen and (max-width:1300px)and (min-width:1081px){
+
+    .recoimg, .movieimg, .tvimg{
+       display: flex;
+        width: 87%;
+        gap: 30px;
+    }    
+
+}
+
+
+@media screen and (max-width:1000px){
+
+    
+    .recoimg, .movieimg, .tvimg{
+        width:100%;
+    }    
+
+.sectionall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    
+}
+
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.ou{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 100%;
+    gap: 30px;
+}
+
+
+.trenimg{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    overflow-x: scroll;
+}
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: hsl(223, 25%, 17%); 
+        width: 100%;
+        height: 70px;
+        border-radius: 10px;
+       
+      
+    }
+
+    .ico{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+
+@media screen and (max-width:650px){
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+
+}
+
+    
+.sectionall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    margin: auto;
+    width: 100%;
+    
+}
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: hsl(223, 25%, 17%); 
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+
+    
+    .ico{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+  
+.moon{
+   
+    width: 280px;
+}
+
+ .moon img{
+    width: 280px;
+  
+}
+
+.bo{
+    position: absolute;
+    left: 230px;
+    top: 25px;
+   
+}
+
+
+.tren, .rec, .lai{
+    font-size: 25px;
+   
+   
+}
+
+
+.ty i {
+    font-size: 25px;
+   
+}
+
+.yu h3{
+   
+    font-size: 12px;
+   
+}
+
+.ty{ 
+    padding: 3px;
+}
+
+
+.inp{
+   
+    font-size: 15px;
+ }
+
+ 
+#sea{
+    font-size: 22px;
+    
+}
+
+.pg{
+    font-size: 12px;
+}
+
+
+
+
+#board{
+    color: red;
+    font-size:26px;
+  
+
+}
+
+.ico i{
+    color: hsl(224, 11%, 59%); 
+    font-size: 20px;
+}
+
+
+.img1{
+    width: 26px;
+    height: 26px;
+}
+
+.ya{
+    font-size: 11px;
+}
+
+
+
+}
