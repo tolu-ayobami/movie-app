@@ -74,13 +74,13 @@ var btn1 = document.getElementById("btn1");
 
  function  Creat(){
 
-    if (email.value < "10"){
-        alert("please enter a correct email");
-        var btn1 = document.getElementById("btn1");
-        btn1.setAttribute("href", "#");
-
-    }
     
+
+
+       
+
+
+
 
     if(email.value == ""){
         alert("please enter email");
