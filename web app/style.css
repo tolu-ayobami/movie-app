@@ -496,6 +496,13 @@ body{
     gap: 30px;
 }
 
+.ato{
+  display: grid;
+  grid-template-columns: auto;
+    width: 100%;
+    gap: 30px;
+}    
+    
 
 .trenimg{
     display: flex;
